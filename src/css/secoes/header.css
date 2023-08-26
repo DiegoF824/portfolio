@@ -3,22 +3,13 @@
 }
 
 .header .logo {
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
-    border-radius: 50%;
     width: 65px;
     height: 65px;
-    line-height: 55px;
-    text-align: center;
-    text-decoration: underline;
     transition: 0.2s;
 }
 
 .header a:hover .logo {
-    color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    scale: 1.1;
 }
 
 .header nav ul {
