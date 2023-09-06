@@ -27,11 +27,69 @@
     color: var(--cor-primaria);
 }
 
-.habilidades .container-habilidades .informacoes h3 {
+.habilidades .container-habilidades .informacoes.informacoes.javascript:hover p,
+.habilidades .container-habilidades .informacoes.informacoes.javascript:hover h3,
+.habilidades .container-habilidades .informacoes.informacoes.javascript:hover .logo i{
+    color: #f0dc4e;
+}
+
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.html:hover p,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.html:hover h3,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.html:hover .logo i{
+    color: #e44d25;
+}
+
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.css:hover p,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.css:hover h3,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.css:hover .logo i{
+    color: #379ad6;
+}
+
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.github:hover p,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.github:hover h3,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.github:hover .logo i{
+    color: #9032ac;
+}
+
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.git:hover p,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.git:hover h3,
+.habilidades .container-habilidades .informacoes.informacoes.informacoes.informacoes.git:hover .logo i{
+    color: #f05030;
+}
+
+.habilidades .container-habilidades .informacoes.javascript h3 {
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: #f0dc4e;      
+}
+
+.habilidades .container-habilidades .informacoes.html h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #e44d25;      
+}
+
+.habilidades .container-habilidades .informacoes.css h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #379ad6;      
+}
+
+.habilidades .container-habilidades .informacoes.github h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #9032ac;      
+}
+
+.habilidades .container-habilidades .informacoes.git h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #f05030;      
 }
 
 .habilidades .container-habilidades .informacoes p {
